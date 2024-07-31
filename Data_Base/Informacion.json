@@ -1,7 +1,17 @@
 {
     "123456": {
         "Nombre": "BOGOTA",
-        "Poblacion": 60500100,
+        "Poblacion": 6,
         "Pais": "COLOMBIA"
+    },
+    "123454": {
+        "Nombre": "BUCARAMANGA",
+        "Poblacion": 2,
+        "Pais": "COLOMBIA"
+    },
+    "123458": {
+        "Nombre": "SOATA",
+        "Poblacion": 2,
+        "Pais": "USA"
     }
 }

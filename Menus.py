@@ -24,7 +24,7 @@ def menu_principal():
             #registro_ciudades()
         elif opcion == "2": 
             clear_consola()
-            print("Esta en la opcion 2")
+            #eliminar_ciudades()
         elif opcion == "3": 
             clear_consola()
             print("Esta en la opcion 3")
@@ -33,7 +33,6 @@ def menu_principal():
             menu_busquedas()
         elif opcion == "5": 
             clear_consola()
-            print("Esta en la opcion 5")
             break
         else: 
             clear_consola()
@@ -50,10 +49,9 @@ def menu_busquedas():
             mostrar_ciudades()
         elif opcion == "2": 
             clear_consola()
-            print("Esta en la opcion 2")
+            mostrar_ciudades_filtro()
         elif opcion == "3": 
             clear_consola()
-            print("Esta en la opcion 3")
             break
         else: 
             clear_consola()
