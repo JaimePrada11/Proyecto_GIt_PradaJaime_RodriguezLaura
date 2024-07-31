@@ -1,4 +1,5 @@
 import os
+from Busquedas import *
 
 def clear_consola(): 
     os.system("clear")
@@ -9,16 +10,18 @@ opciones_busqueda = ("1. Ver todas las ciudades", "2. Usar filtros para buscar c
 def recorrer_opciones(opciones):
     for opcion in opciones: 
         print(opcion)
-    opcion = input("Por favor ingrese la opcion seleccionada: ")
+    opcion = input("Por favor, ingrese una opción: ")
     return opcion
 
 def menu_principal(): 
     while True: 
-        print("¡Bienvenido al menú de ciudades!")
+        print("************************************************************")
+        print("               ¡BIENVENIDO AL MENÚ DE CIUDADES ")
+        print("************************************************************\n")
         opcion = recorrer_opciones(opciones_principal)
         if opcion == "1": 
             clear_consola()
-            print("Esta en la opcion 1")
+            #registro_ciudades()
         elif opcion == "2": 
             clear_consola()
             print("Esta en la opcion 2")
@@ -34,15 +37,17 @@ def menu_principal():
             break
         else: 
             clear_consola()
-            print("Opción incorrecta, por favor ingrese un valor válido")
+            print("Opción incorrecta, ingrese un valor válido")
 
 def menu_busquedas(): 
     while True: 
-        print("¡Bienvenido al menú de busquedas!")
+        print("************************************************************")
+        print("            ¡BIENVENIDO AL MENÚ DE BÚSQUEDAS ")
+        print("************************************************************\n")
         opcion = recorrer_opciones(opciones_busqueda)
         if opcion == "1": 
             clear_consola()
-            print("Esta en la opcion 1")
+            mostrar_ciudades()
         elif opcion == "2": 
             clear_consola()
             print("Esta en la opcion 2")
@@ -52,6 +57,6 @@ def menu_busquedas():
             break
         else: 
             clear_consola()
-            print("Opción incorrecta, por favor ingrese un valor válido")
+            print("Opción incorrecta, ingrese un valor válido")
 
 menu_principal()
