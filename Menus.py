@@ -1,5 +1,6 @@
 import os
 from Busquedas import *
+from Registro import *
 
 def clear_consola(): 
     os.system("clear")
@@ -21,13 +22,13 @@ def menu_principal():
         opcion = recorrer_opciones(opciones_principal)
         if opcion == "1": 
             clear_consola()
-            #registro_ciudades()
+            registro_ciudades()
         elif opcion == "2": 
             clear_consola()
-            #eliminar_ciudades()
+            Eliminar_ciudades()
         elif opcion == "3": 
             clear_consola()
-            print("Esta en la opcion 3")
+            modificar_ciudad()
         elif opcion == "4": 
             clear_consola()
             menu_busquedas()
@@ -56,5 +57,3 @@ def menu_busquedas():
         else: 
             clear_consola()
             print("Opción incorrecta, ingrese un valor válido")
-
-menu_principal()
