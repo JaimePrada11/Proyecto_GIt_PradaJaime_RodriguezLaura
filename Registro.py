@@ -59,4 +59,17 @@ def modificar_ciudad():
             print("-"*60)
         guardar_datos()
 
-        
+def Eliminar_ciudades():
+    cargar_datos()
+
+    Codigo_Postal = input("Ingresa el codigo postal de la ciudad:  ")
+    if Codigo_Postal not in Ciudades:
+        print("-"*30)
+        print("     La ciudad no existe")
+        print("-"*30)
+    else:   
+        Ciudades.pop(Codigo_Postal)
+        print("-"*30)
+        print(f"Ciudad Eliminada ")
+        print("-"*30)
+    guardar_datos()
