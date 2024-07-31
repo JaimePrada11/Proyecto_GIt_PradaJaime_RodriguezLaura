@@ -5,7 +5,9 @@ Este proyecto es un aplicativo creado como parte de la evaluación de habilidade
 1. [Información general](#info-general)
 2. [Tecnologías](#tecno)
 3. [Instalación y ejecución](#install)
-4. [Autores](#autores)
+4. [Funcionalidades](#funcionalidades)
+5. [Autores](#autores)
+6. [Licencia](#licencia)
 
 ---
 <a name="info-general"></a>
@@ -45,6 +47,16 @@ Este proyecto es un aplicativo creado como parte de la evaluación de habilidade
    ```
    python main.py
    ```
+
+## Funcionalidades
+
+- **Registro**: Permite el registro de nuevas ciudades
+- **Modificar**: Permite modificar los datos de las ciudades.
+- **Eliminar**: Permite eliminar una ciudad.
+- **Reportes**: Genera busquedas de acuerdo a los parametros requeridos.
+- **Base de datos**: Guarda la informacion en un JSON.
+  
+
 <a name="autores"></a>
 ## Autores :woman:
 
@@ -59,3 +71,7 @@ Este proyecto es un aplicativo creado como parte de la evaluación de habilidade
 ---
 
 Hecho con 🫀 por [JaimePrada](https://github.com/laura2ndrea) y [LauraRodriguez](https://github.com/laura2ndrea)
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
