@@ -13,15 +13,7 @@ Este proyecto es un aplicativo creado como parte de la evaluación de habilidade
 
 - **Estado**: completado :white_check_mark:
   
-### Menú principal <br><br>
 
-<img src="/img_readme/menuprincipal.png" width="60%" alt="skills"> <br><br>
-
-### Menú del coordinador <br><br>
-
-<img src="/img_readme/menucoordinador.png" width="60%" alt="skills"> <br><br>
-
-<a name="tecno"></a>
 ## Tecnologías :computer:
 
 - **Pyton:** lenguaje utilizado para desarrollar el aplicativo. 
@@ -45,7 +37,6 @@ Este proyecto es un aplicativo creado como parte de la evaluación de habilidade
    ```
 3. Abre Visual Studio Code.
 4. Haz clic en los tres puntos al lado de "Run". En el menú desplegable, selecciona "Terminal" y luego "New Terminal".<br><br>
-   <img src="/img_readme/terminal.png" width="60%" alt="terminal"> <br><br>
 5. Navega a la carpeta donde se encuentra el repositorio. <br><br>
    ```
    cd ruta/a/tu/carpeta
